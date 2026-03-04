@@ -1,16 +1,2 @@
-import 'package:flutter/material.dart';
-
-import '../screens/todos_page.dart';
-
-class AppRoot extends StatelessWidget {
-  const AppRoot({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'TODO Refatoração',
-      theme: ThemeData(useMaterial3: true),
-      home: const TodosPage(),
-    );
-  }
-}
+// Fachada para o AppRoot na nova estrutura.
+export '../features/todos/presentation/app_root.dart';

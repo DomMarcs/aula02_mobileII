@@ -1,7 +1,5 @@
-class AppError implements Exception {
-  final String message;
-  const AppError(this.message);
+// Arquivo mantido apenas para compatibilidade caso algo ainda importe.
+// A implementação real foi movida para `core/errors/app_error.dart`.
 
-  @override
-  String toString() => message;
-}
+export '../core/errors/app_error.dart';
+
